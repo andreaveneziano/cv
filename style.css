@@ -515,6 +515,9 @@ p{
 .card-5 {
     background-image: url('./img/home_sito.jpg');
 }
+.hide-class{
+    display: none;
+}
 #topbtn{
     position: fixed;
     bottom: 40px;

@@ -45,7 +45,12 @@
         <div class=titolo> 
             <h3>Hi, I'm <span style="color: red; font-weight: 700; "> Andrea Veneziano</span> <br>and  I'm a front end developer</h3>
         </div>
-        <img src="img/sfondo.jpg" alt="foto4">
+        <picture>
+            <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+            <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+            <img src="img/sfondo.jpg" alt="Background" style="width:auto;">
+          </picture>
+        
         <button class="btn">
             <a href="#cv">
                 <i class="fa fa-chevron-down" aria-hidden="true">  </i> 
@@ -288,7 +293,7 @@
             </div>
         </div>
     </div>
-    <button id="topbtn">
+    <button id="topbtn" class="hide-class">
         <i class="fa fa-chevron-up" aria-hidden="true"></i>
     </button> 
     <script src="js/topbtn.js"> </script>
