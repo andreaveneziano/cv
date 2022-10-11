@@ -139,6 +139,13 @@
     padding-left:0px ;
   }
 
+.container picture img {
+    width: 100%;
+}
+
+.container picture source {
+    width: 100%;
+}
 .container img {
     width: 100%;
     min-height: 600px;
@@ -545,9 +552,6 @@ p{
 }
 
 @media (max-width:600px){
-    .container img {
-        max-height: 780px;
-    }
     .titolo h3 {
         font-size: 22px;
     }
