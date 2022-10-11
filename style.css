@@ -139,17 +139,6 @@
     padding-left:0px ;
   }
 
-.container picture img {
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-}
-
-.container picture source {
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-}
 .container img {
     width: 100%;
     min-height: 600px;
