@@ -141,7 +141,7 @@
 
 .container img {
     width: 100%;
-    min-height: 400px;
+    min-height: 600px;
     max-height: 650px;
     background-size: cover;
     background-position: center center;
@@ -545,6 +545,9 @@ p{
 }
 
 @media (max-width:600px){
+    .container img {
+        max-height: 780px;
+    }
     .titolo h3 {
         font-size: 22px;
     }
