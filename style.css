@@ -144,6 +144,7 @@
     min-height: 400px;
     max-height: 650px;
     background-size: cover;
+    background-position: center center;
 }
    
    .flex {
@@ -218,7 +219,7 @@
 .container_cv .sx {
     position: relative;
     background: #003147;
-    padding: 40px;
+    padding: 30px;
 }
 
 .txt_profilo{
