@@ -150,7 +150,7 @@
     max-width: 100%;
    }
    
-   .container .btn a {
+   .container .btn {
     position: absolute;
     top: 70%;
     left: 50%;
@@ -163,7 +163,12 @@
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    
+   }
+
+   .container .btn a {
     text-decoration: none;
+    color: white;
    }
    
    .container .btn a:hover {
