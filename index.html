@@ -45,7 +45,16 @@
         <div class=titolo> 
             <h3>Hi, I'm <span style="color: red; font-weight: 700; "> Andrea Veneziano</span> <br>and  I'm a front end developer</h3>
         </div>
-        <img src="img/web_dev.jpg" alt="background">
+        <picture>
+             <source media="(min-width:960px)" 
+                    srcset="img/web_dev.jpg 1068w,
+                            img/web_dev.jpg 1602w" 
+                    alt="background desktop">
+             <source media="(min-width:600px)" srcset="img/web_dev_md.jpg" alt="background tablet">
+             <source srcset="img/web_dev_m.jpg" alt="background mobile">
+             <img src="img/web_dev.jpg" alt="background">
+        </picture>
+       
         <button class="btn">
             <a href="#cv">
                 <i class="fa fa-chevron-down" aria-hidden="true">  </i> 

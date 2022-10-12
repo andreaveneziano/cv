@@ -534,7 +534,16 @@ p{
     opacity: 0.8;
 }
   
+@media (max-width: 1920px){
+    .container img {
+        max-height:none  !important;
+    }
+}
+
 @media (max-width:1000px){
+    .container img {
+        max-height:none  !important;
+    }
     .container_cv {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
@@ -544,7 +553,16 @@ p{
     }
 }
 
+@media (max-width: 960px){
+    .container img {
+        max-height:none  !important;
+    }
+}
+
 @media (max-width:600px){
+    .container img {
+        max-height:none  !important;
+    }
     .titolo h3 {
         font-size: 22px;
     }
