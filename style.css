@@ -456,6 +456,7 @@ p{
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 .container_projects h2{
