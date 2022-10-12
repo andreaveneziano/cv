@@ -571,6 +571,11 @@ p{
     .container img {
         max-height:none  !important;
     }
+    .titolo h3 {
+        font-size: 2rem;
+        text-align: unset;
+
+    }
 }
 
 @media (max-width:600px){
@@ -578,7 +583,9 @@ p{
         max-height:none  !important;
     }
     .titolo h3 {
-        font-size: 22px;
+        font-size: 2rem;
+        text-align: unset;
+        margin-left: 70px;
     }
     .about .box{
         flex-direction: column;
@@ -591,5 +598,33 @@ p{
     }
     .skills .box{
         grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:550px){
+    .titolo h3 {
+        font-size: 2rem;
+        text-align: unset;
+        margin-left: 55px;
+    }
+}
+@media (max-width:480px){
+    .titolo h3 {
+        font-size: 2rem;
+        text-align: unset;
+        margin-left: 35px;
+    }
+}
+@media (max-width:420px){
+    .titolo h3 {
+        font-size: 2rem;
+        text-align: unset;
+        margin-left: 25px;
+    }
+}
+@media (max-width:385px){
+    .titolo h3 {
+        font-size: 2rem;
+        text-align: unset;
+        margin-left: 20px;
     }
 }
