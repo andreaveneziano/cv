@@ -573,8 +573,6 @@ p{
     }
     .titolo h3 {
         font-size: 2rem;
-        text-align: unset;
-
     }
 }
 
@@ -584,7 +582,7 @@ p{
     }
     .titolo h3 {
         font-size: 3rem;
-        text-align: unset;
+        text-align: left;
         margin-left: 70px;
     }
     .about .box{
@@ -603,28 +601,24 @@ p{
 @media (max-width:550px){
     .titolo h3 {
         font-size: 2rem;
-        text-align: unset;
         margin-left: 55px;
     }
 }
 @media (max-width:480px){
     .titolo h3 {
         font-size: 2rem;
-        text-align: unset;
         margin-left: 35px;
     }
 }
 @media (max-width:420px){
     .titolo h3 {
         font-size: 2rem;
-        text-align: unset;
         margin-left: 25px;
     }
 }
 @media (max-width:385px){
     .titolo h3 {
         font-size: 2rem;
-        text-align: unset;
         margin-left: 20px;
     }
 }
